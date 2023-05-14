@@ -24,7 +24,7 @@ public class Survivor extends ApplicationAdapter {
 	float birdY = 0;
 	int gameState = 0;
 	float velocity = 0;
-	float gravity = 0.4f;
+	float gravity = 0.2f;
 	float enemyVelocity = 2;
 	Random random;
 	int score = 0;
@@ -72,11 +72,11 @@ public class Survivor extends ApplicationAdapter {
 
 		font = new BitmapFont();
 		font.setColor(Color.WHITE);
-		font.getData().setScale(4);
+		font.getData().setScale(2);
 
 		font2 = new BitmapFont();
 		font2.setColor(Color.WHITE);
-		font2.getData().setScale(6);
+		font2.getData().setScale(4);
 
 
 		for (int i=0; i<numberOfEnemies; i++){
@@ -110,7 +110,7 @@ public class Survivor extends ApplicationAdapter {
 
 
 			if (Gdx.input.justTouched()) {
-				velocity = -12;
+				velocity = -4;
 			}
 
 			for (int i = 0; i < numberOfEnemies; i++) {
