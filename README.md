@@ -1,4 +1,9 @@
 # Survivor
+Düzeltmeler:
+  - Font hataları düzeltildi.
+  - Kuşun engellerden geçmesini zorlaştıran yükselme hızı azaltıldı.
+
+
 Survivor oyununda amaç kuşun düşmanlara temas etmeden yani hayatta kalarak mümkün olan en yüksek puanı elde etmesi.
 <br>
 Oyun kullanıcının ekrana tıklamasıyla başlar. Her seferinde aynı x ekseninde ancak rastgele y koordinatlarında olmak üzere üç tane düşman (arı) gelir ve kuş onlara temas etmeden bu üç arıyı atlatır. Bunun üzerine skor 1 artar. Her düşman grubu geçildiğinde yerine yeni bir düşman grubu gelir.
